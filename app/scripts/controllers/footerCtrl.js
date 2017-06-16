@@ -26,7 +26,7 @@ var footerCtrl = function($scope, globalService) {
                 $scope.gas = {
                     curVal: curVal,
                     value: localStorage.getItem(gasPriceKey) ? parseInt(localStorage.getItem(gasPriceKey)) : 21,
-                    max: curVal + 20,
+                    max: 100,
                     min: 2
                 }
                 ethFuncs.gasAdjustment = $scope.gas.value;

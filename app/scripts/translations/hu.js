@@ -171,7 +171,7 @@ OFFLINE_2_Title             : 'Generate Transaction (Offline or Online)',
 OFFLINE_3_Title             : 'Sign Transaction (Offline)',
 OFFLINE_2_Button            : 'Generate Unsigned Transaction',
 OFFLINE_3_Button            : 'Generate Signed Transaction',
-SEND_signed
+SEND_signed                 : '',
 OFFLINE_2_Help_1            : 'Get this in Step 1, or use 22000000000.',
 OFFLINE_2_Help_2            : '21000 az alapértelmezett gas limit. Tokens use 150000+. Complex contracts may need more. You shouldn\'t ever need to go over 500000',
 OFFLINE_2_Help_3            : 'Get this in Step 1. It\'s the number of transactions that have been sent from an address. Prevents double-spends.',
