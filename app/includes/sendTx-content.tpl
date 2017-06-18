@@ -3,8 +3,8 @@
   <wallet-balance-drtv></wallet-balance-drtv>
   <hr />
   <div class="well">
-    <p translate="sidebar_donation"> MyEtherWallet is a free, open-source service dedicated to your privacy and security. The more donations we receive, the more time we spend creating new features, listening to your feedback, and giving you what you want. We are just two people trying to change the world. Help us?</p>
-    <a class="btn btn-primary btn-block" ng-click="onDonateClick()" translate="sidebar_donate">DONATE</a>
+    <p translate="sidebar_donation"> UnlimitedGasWallet is a free, open-source service dedicated to your privacy and security. The more donations we receive, the more time we spend creating new features, listening to your feedback, and giving you what you want. We are just two people trying to change the world. Help us?</p>
+    <a class="btn btn-primary btn-block"  data-toggle="modal" data-target="#sendTransaction"  ng-click="sendDonate()" translate="sidebar_donate">DONATE</a>
     <div class="text-success text-center marg-v-sm" ng-show="tx.donate" translate="sidebar_thanks"> THANK YOU!!! </div>
   </div>
 </section>
@@ -82,6 +82,18 @@
 
   <div class="form-group" ng-show="showRaw">
     <a class="btn btn-primary btn-block" data-toggle="modal" data-target="#sendTransaction" translate="SEND_trans"> Send Transaction </a>
+  </div>
+
+  <div class="form-group" ng-show="showRaw">
+    <a style="background-color:cadetblue" class="btn btn-primary btn-block" ng-click="scaduleTx()" translate="SEND_status"> Send With Status.im BlockTime </a>
+  </div>
+
+   <div class="form-group" ng-show="showRaw && showb">
+    <a style="background-color:cadetblue" class="btn btn-primary btn-block"> BlockNumber is {{currentBlockNumber}} </a>
+  </div>
+
+    <div class="form-group" ng-show="showb && showRaw">
+    <a class="btn btn-danger btn-block" ng-click="stopScaduleTx()"> Cancel </a>
   </div>
 
 </section>

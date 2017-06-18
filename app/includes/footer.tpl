@@ -11,8 +11,13 @@
           <span translate="FOOTER_1b">Created by</span>
           <a aria-label="kvhnuke's github" href="https://github.com/kvhnuke" target="_blank">kvhnuke</a>
           &
-          <a aria-label="tayvano's github" href="https://github.com/tayvano" target="_blank">tayvano</a>.
+          <a aria-label="tayvano's github" href="https://github.com/tayvano" target="_blank">tayvano</a>
           <br />
+          &
+                    <a aria-label="syrohei's github" href="https://github.com/syrohei" target="_blank">syrohei</a>.
+
+          
+
           <a role="link" tabindex="0" data-toggle="modal" data-target="#disclaimerModal" translate="FOOTER_4"> Disclaimer </a>
         </p>
         <div class="form-group">
@@ -27,25 +32,11 @@
       <div class="col-sm-6 footer-2">
         <h5> <i aria-hidden="true">💝</i> Donations are always appreciated!</h5>
         <ul>
-          <li> ETH: <span class="mono wrap">0x7cB57B5A97eAbe94205C07890BE4c1aD31E486A8</span></li>
-          <li> BTC: <span class="mono wrap">1MEWT2SGbqtz6mPCgFcnea8XmWV5Z4Wc6</span></li>
+          <li> ETH: <span class="mono wrap">0x06c6A0E33171d6aEa0a9E057B17CC033F9D61dA1</span></li>
         </ul>
 
         <h5> <i aria-hidden="true">👫</i> You can also support us by supporting our blockchain-family.</h5><p>Consider using our affiliate links to...</h5>
-        <ul>
-          <li><a aria-label="Swap Ether or Bitcoin via Bity.com" href="https://bity.com/af/jshkb37v" target="_blank">Swap ETH/BTC/EUR/CHF via Bity.com</a></li>
-          <li><a href="https://www.ledgerwallet.com/r/fa4b?path=/products/" target="_blank">Buy a Ledger Nano S</a></li>
-          <li><a href="https://trezor.io/?a=myetherwallet.com" target="_blank">Buy a TREZOR</a></li>
-        </ul>
-
-        <h5> <i ng-hide="curLang=='en'">🏅</i> <span translate="Translator_Desc"> Thank you to our translators </span></h5>
-        <ul><li>
-          <span translate="TranslatorName_1"></span>
-          <span translate="TranslatorName_2"></span>
-          <span translate="TranslatorName_3"></span>
-          <span translate="TranslatorName_4"></span>
-          <span translate="TranslatorName_5"></span>
-        </li></ul>
+     
       </div>
 
       <div class="col-sm-3 footer-3">
